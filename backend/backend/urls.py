@@ -1,7 +1,7 @@
-from django.contrib import admin
-from django.urls import include, path
+from django.urls import path
+from .views import RecordListCreateView, RecordRetrieveUpdateDeleteView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('records.urls')),
+    path('records/', RecordListCreateView.as_view(), name='record-list-create'),
+    path('records/<int:pk>/', RecordRetrieveUpdateDeleteView.as_view(), name='record-detail'),
 ]
