@@ -8,6 +8,6 @@ class RecordListCreateView(generics.ListCreateAPIView):
     serializer_class = RecordSerializer
 
 
-class RecordRetrieveUpdateView(generics.RetrieveUpdateAPIView):
+class RecordRetrieveUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Record.objects.all()
     serializer_class = RecordSerializer
