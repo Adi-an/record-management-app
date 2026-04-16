@@ -210,6 +210,5 @@ Fix:
 - Check `CORS_ALLOWED_ORIGINS`
 - Ensure frontend uses `http://127.0.0.1:8000/api`
 
-## 15. Submission tip
-When you submit, mention that your solution follows the required stack and keeps a clear separation between frontend, backend/business logic, and persistence layer.
+
 ![Screenshot](https://github.com/Adi-an/record-management-app/blob/6356cc743a4697937eb3aa28a1540496ae4c6b99/Screenshot%202026-04-15%20185429.png)
