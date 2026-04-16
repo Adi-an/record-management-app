@@ -6,6 +6,7 @@ A simple full-stack technical assessment project built with:
 - PostgreSQL (database)
 
 This project matches the assignment requirement to create, view, and update records with 10 fields.
+[Project Demo Video](https://drive.google.com/file/d/1KJVhiQtpVllAUNymEe6KHH0XYvLffNhf/view?usp=sharing)
 
 ## Features
 - Create record
