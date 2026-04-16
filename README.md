@@ -168,32 +168,6 @@ http://localhost:5173/
 ### Database
 - PostgreSQL stores all record data permanently
 
-## 9. GitHub push steps
-Create a new repository in GitHub, for example:
-- `record-management-app`
-
-Then from project root run:
-```bash
-git init
-git add .
-git commit -m "Initial full-stack assessment submission"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/record-management-app.git
-git push -u origin main
-```
-
-## 10. What to show in the assessment demo
-Show these in order:
-1. Project structure in VS Code
-2. PostgreSQL database created
-3. Backend running on port 8000
-4. Frontend running on port 5173
-5. Create a new record
-6. Show record saved in UI
-7. Edit the same record
-8. Show updated values in UI
-9. Open API endpoint in browser or Postman
-10. Open GitHub repository with README
 
 ## 11. Design decisions
 - Used Django REST Framework for clean APIs
@@ -238,3 +212,4 @@ Fix:
 
 ## 15. Submission tip
 When you submit, mention that your solution follows the required stack and keeps a clear separation between frontend, backend/business logic, and persistence layer.
+![Screenshot](https://github.com/Adi-an/record-management-app/blob/6356cc743a4697937eb3aa28a1540496ae4c6b99/Screenshot%202026-04-15%20185429.png)
